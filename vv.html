@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>NEW EMPLOYEE DETAILS FORM</h1></center>
+    <form style="border: 2px solid black;" >
+        <table cellpadding="5">
+            <tr>
+                <td><h3>Personal Details</h3></td>
+            </tr>
+            <tr>
+                <td><label for="">*Your Name </label></td>
+                <td>
+                    <select  name="Options" id="1">
+                        <option value="">Ms</option>
+                        <option value="">Mr</option>         
+                    </select>
+                </td>
+                
+                    <td><input type="text" name="firstName" id="firstName" placeholder="firstName"  ></td>
+                    <td><input type="text" name="middleName" id="middleName" placeholder="middleName"  ></td>
+                   <td> <input type="text" name="lastName" id="lastName" placeholder="lastName" ></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="1">Title</label></td>
+                <td><label for="firstName">firstname</label></td>
+                <td><label for="middleName">middleName</label></td>
+                <td><label for="lastName">lastName</label></td>
+            </tr>
+                
+            <tr>
+                <td><label for="">*Gender  </label></td>
+                <td colspan="2">
+                <label for="male">Male</label>
+                <input type="radio" value="Male" id="male" name="Gender">
+                <label for="Female">Female</label>
+                <input type="radio" value="Female" id="Female" name="Gender"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">*Birth Date &nbsp;</label></td>
+                <td colspan="2"><input type="date"></td>
+            </tr>
+               
+           
+            <tr>
+                <td><label for="">*Address</label></td> 
+                <td colspan="2"><input type="Address" placeholder="" id="Street Address" ></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <td><input type="Address" placeholder="" id="Street Address Line2"></td><br>          
+            </tr>
+           
+
+            <tr>
+                <td></td>
+                <td colspan="2"><label for="Street Address">Street Address</label></td>
+                <td><label for="Street Address Line2">Street Address Line2</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><input type="Address" placeholder="" id="suburb"> </td>
+                <td ><input type="Address" placeholder="" id="StateS"></td>
+                <td><input type="Address" placeholder="" id="Postcode"></td>   
+            </tr>
+                
+            <tr>
+                <td></td>
+                <td colspan="2"><label for="suburb">suburb</label></td>
+                <td><label for="StateS">StateS</label></td>
+                <td><label for="Postcode">Postcode</label></td>
+            </tr>
+                
+            <tr>
+                <td> <label for="">*Contact</label></td>
+                <td colspan="2"><input  type="Phone" placeholder="" id="Home Number"></td>
+                <td><input  type="Phone" placeholder="" id="Mobile Number"></td>
+                <td><input  type="email" placeholder="" id="Email"></td>
+            </tr>
+           <tr>
+                <td></td>
+                <td colspan="2"><label for="Home Number">Home Number</label></td>
+                <td><label for="Mobile Number">Mobile Number</label></td>
+                <td><label for="Email">Email</label></td>
+            </tr>
+
+            <tr>
+                <td><label for="">*Are you Australian?</label></td>
+                <td colspan="2">
+                <label for="">Yes</label>
+                <input type="radio" value="Yes" id="male" name="Gender">
+
+                <label for="">No</label>
+                <input type="radio" value="No" id="Female" name="Gender"> 
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="">*Do you have a working visa?</label></td>
+                <td colspan="2"> 
+                <label for="">Yes</label>
+                <input type="radio" value="Yes" id="male" name="Gender">
+
+                <label for="">No</label>
+                <input type="radio" value="No" id="Female" name="Gender" required>
+                </td>
+            </tr>
+
+            <tr>
+               <td> <div><h3>Employment Details</h3></div></td>
+            </tr>
+
+            <tr>
+                <td><label for="">*Job Title</label></td>
+                <td colspan="2">  <input type="text"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">*Commencent Date</label></td>
+                <td colspan="2"><input type="date"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">*File Tax number</label></td>
+                <td colspan="2"><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td> <label for="">*Employment Status</label></td>
+                <td colspan="3">
+                    <label for="">Full Timed</label>
+                    <input type="radio" value="Full Timed="Full Timed" name="Gender">
+
+                    <label for="">Part time</label>
+                    <input type="radio" value="Part time" id="Part time" name="Gender">
+
+                    <label for="">Temporary</label>
+                    <input type="radio" value="Temporary" id="Temporary" name="Gender">
+
+                    <label for="">Casual</label>
+                    <input type="radio" value="Casual" id="Casual" name="Gender">
+                </td>
+            </tr>
+
+            <tr>
+                <td><h3>Emergency Contact Details</h3></td>
+            </tr>
+
+            <tr>
+                <td><label for="2">*Name</label></td>
+                <td>
+                    <select name="option" value="option">
+                        <option value="">Ms</option>
+                        <option value="">Mr</option>
+                    </select>
+                </td>
+                    <td><input type="text" name="firstName" id="first" placeholder="firstName"  ></td>
+                    <td><input type="text" name="middleName" id="middle" placeholder="middleName"  ></td>
+                   <td> <input type="text" name="lastName" id="last" placeholder="lastName" ></td>   
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><label for="2">Title</label></td>
+                <td><label for="first">firstname</label></td>
+                <td><label for="middle">middleName</label></td>
+                <td><label for="last">lastName</label></td>
+            </tr>
+
+            <tr>
+                <td><label for="">*Relationship</label></td>
+                <td colspan="2"><input type="text" ></td>
+            </tr>
+
+            <tr>
+                <td><label for="">*Contact</label></td>
+                <td colspan="2"><input type="tel" placeholder="Home Phone" id="Home Phone" ></td>
+                <td><input type="tel" placeholder="Mobile Phone" id="Mobile Phone" ></td>
+                <td><input type="email" placeholder="Email" id="Email2"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="2"><label for="Home Phone">Home Phone</label></td>
+                <td><label for="Mobile Phone">Mobile Phone</label></td>
+                <td><label for="Email2">Email</label></td>
+            </tr>
+
+            <tr>
+                <td><h3>Banking Details</h3></td>
+            </tr>
+
+            <tr>
+                <td><label for="">*Bank</label></td>
+                <td colspan="2"><input type="text" placeholder="Bank Name" id="Bank Name"></td>
+                <td>  <input type="text" placeholder="Bank Branch" id="Bank Branch"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="2"><label for="Bank Name">*Bank Name</label></td>
+                <td><label for="Bank Branch">Bank Branch</label></td>
+            </tr>
+
+            <tr>
+                <td><label for="">*Account</label></td>
+                <td colspan="2"><input type="text" placeholder="Name" id="Name"></td>
+                <td><input type="text" placeholder="Account Number" id="Account Number"></td>
+                <td><input type="text" placeholder="BSB Number" id="BSB Number"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="2"><label for="Name">Name</label></td>
+                <td><label for="Account Number">Account Number</label></td>
+                <td><label for="BSB Number">BSB Number</label></td>
+            </tr>
+
+            <tr>
+                <td><label for="">*Employment Signature</label></td>
+                <td colspan="4"><textarea name="" cols="77" rows="5"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><button type="SUBMIT">SUBMIT</button></td>
+            </tr>
+                
+        </table>      
+    </form>
+</body>
+</html>

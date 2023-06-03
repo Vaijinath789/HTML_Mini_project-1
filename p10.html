@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Marquee Tag</h1>
+
+    </center>
+    <hr>
+    <marquee behavior="solid">These is 12 clock batch</marquee><br>
+    <marquee>These is 12 clock batch</marquee><br>
+    <marquee><a href>Thise is Marquee Tag</a></marquee>
+    <marquee bgcolor="red">Thise is vaijinath</marquee>
+    <hr>
+    <br>
+    <marquee bgcolor="red" behavior="alternate">Thise is vaijinath</marquee> <br>
+    <marquee bgcolor="red" behavior="scroll">Thise is vaijinath</marquee><br 
+    <marquee bgcolor="red" behavior="slide">Thise is vaijinath</marquee> <br>
+    <marquee bgcolor="red" behavior="scroll" direction="right">Thise is vaijinath</marquee><br>
+    <marquee bgcolor="red" behavior="scroll" direction="left">Thise is vaijinath</marquee><br>
+    <marquee bgcolor="red" behavior="scroll" direction="up">Thise is vaijinath</marquee><br>
+    <marquee bgcolor="red" behavior="scroll" direction="down" height="100">Thise is vaijinath</marquee><br>
+    <marquee bgcolor="red" behavior="scroll" direction="down" scrollamount="2">Thise is me</marquee><br>
+    <marquee bgcolor="red" behavior="scroll" direction="right" onmouseenter="stopScroll()" onmouseleave="startScroll()"  id="atm">i am</marquee>
+    <script>
+        function stopScroll() {
+            let marquee = document.getElementById("atm").stop();
+        }
+        function startScroll() {
+            let marquee = document.getElementById("atm").start();
+        }
+    </script>
+
+    <center>
+        <h1>Marquee Tag...!</h1>
+    </center>
+    <marquee>This is a marquee tag</marquee>
+    <marquee><a href="#">this is marquee tag</a></marquee>
+    <marquee bgcolor="red" behavior="scroll" direction="right" height="100">Thise is vaijinath</marquee><br>
+    <marquee bgcolor="red" behavior="scroll" direction="left" height="100">Thise is vaijinath</marquee><br>
+    <marquee bgcolor="red" behavior="scroll" direction="up" height="100">Thise is vaijinath</marquee><br>
+    <marquee bgcolor="red" behavior="scroll" direction="down" height="100">Thise is vaijinath</marquee><br>
+    <hr>
+    <marquee bgcolor="skyblue" behavior="scroll"  scrollamount="1" height="100">Thise is vaijinath</marquee><br>
+    <marquee bgcolor="skyblue" behavior="scroll"  scrollamount="10" height="100">Thise is vaijinath</marquee><br>
+    <marquee bgcolor="skyblue" behavior="scroll"  scrollamount="15" height="100">Thise is vaijinath</marquee><br>
+    <marquee bgcolor="skyblue" behavior="scroll"  scrollamount="19" height="100" id="You">Thise is vaijinath</marquee><br>
+    <hr>
+    <script>
+        document.getElementById("You").onmouseover=function(){
+            document.getElementById("You"). stop();
+        };
+        document.getElementById("You").onmouseleave=function(){
+            document.getElementById("You"). start();
+        
+        };
+    </script>
+</body>
+</html>
